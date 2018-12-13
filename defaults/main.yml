@@ -1,6 +1,9 @@
 ---
 grafana_version: latest
 
+# Should the package install be forced ? If not, the package downgrading is not possible.
+grafana_force_install: false
+
 # Should we use the provisioning capability when possible (provisioning require grafana >= 5.0)
 grafana_use_provisioning: true
 
